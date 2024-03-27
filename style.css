@@ -17,7 +17,8 @@
 
 
 body{
-  font-family: cursive;
+  font-family: monospace;
+  
 }
 
 
@@ -35,7 +36,6 @@ body{
   align-items: center;
   justify-content: center;
   background-color: black;
-  font-family: cursive;
   position: relative;
 }
 
@@ -63,11 +63,14 @@ label{
 }
 
 #text{
-  font-size: 20px;
+  font-size: 40px;
   font-weight: bold;
 }
 
+select{
+  font-family: monospace;
 
+}
 
 
 /* Media query for tablets */
